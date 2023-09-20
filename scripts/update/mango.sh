@@ -22,6 +22,6 @@ location /mango/ {
   proxy_set_header Connection "upgrade";
 }
 EOF
-        systemctl nginx reload
+        systemctl reload nginx
     fi
 fi
